@@ -12,7 +12,7 @@ import android.widget.EditText;
 
 
 public class MainActivity extends AppCompatActivity {
-
+//final exam practice
     private static final int REQUEST_CODE_LOGIN = 10 ;
     private EditText username;
     private EditText password;
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onStart() {
-        super.onStart();
+        super.onStart() ;
         resultUsername = username.getText().toString();
         resultPassword = password.getText().toString();
         resultEmail = email.getText().toString();
